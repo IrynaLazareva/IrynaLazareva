@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> </h2>
+    <fieldset>
+        <legend>Информация отправки</legend>
+        
+    </fieldset>
+
+    <h2>Select</h2>
+    <select name="cars" size="3" multiple>
+        <option value="Volvo">Volvo</option>
+        <option value="Kia">Kia</option>
+        <option value="Fiat">Fiat</option>
+        <option value="BMW">BMW</option>
+        <option value="Audi">Audi</option>
+    </select>
+    <h2>Текстовая область</h2>
+    <form>
+        <p><input type="text" name="first name2"/></p>
+        <p><input type="text" name="last name2"/></p>
+        <p><textarea name="message" rows="10" cols="30"></p></textarea></p>
+        <button type="button" onClick="alert('Thanks');">Кликнуть на меня</button>
+    </form>
+    <h2>Datalist</h2>
+    <form action="/contact.php" target="_blank" method="get">
+        <input list="cars">
+        <datalist id="cars"
+        <option>Volvo</option>
+        <option>BMW</option>
+        <option>Audi</option>
+        <option>Kia</option>
+    </datalist>
+    </form>
+    <input type="text" name="username" value="your name"/>
+    <input type="password" name="psw" value="введите пароль"/>
+    </form>
+    <form>
+        <input type="checkbox" name="cofe"> I drink cofe
+        <input type="checkbox" name="cofe"> I drink cofe
+    </form>
+
+</body>
+</html>
