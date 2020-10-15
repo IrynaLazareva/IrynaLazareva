@@ -1,0 +1,22 @@
+@charset "UTF-8"
+/* css document*/
+   *{
+       padding:0;
+       margin:0;
+   }
+    
+   
+    
+    .boxing h2{
+        color:grey;
+    }
+    .boxing p{
+        font-size: 14px;
+    }
+    .red_color h2 {
+        color: red;
+    }
+    .green_color p {
+        color: green;
+        font-size: 20px;
+    }
